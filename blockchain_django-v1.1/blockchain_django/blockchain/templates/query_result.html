@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>上传数据</title>
+	<style>
+	#请输入 {
+		color: red;
+	}
+	#wenbenyu {
+		height: 175px;
+		width: 750px;
+		color: purple;
+	}
+
+		body,table,h1,div
+	{
+		padding: 0;
+		margin: 0;
+	}
+	div {
+		width: 750px;
+		color: deeppink;
+		text-align: center;
+	}
+	body
+	{
+		
+		background-color:#e6e6e6;
+		color: #fff; 
+	}
+	.biaoti {
+	background-color: blue;
+	color: red;
+	margin: 3px auto;
+	text-align: center;
+	}
+	a {
+
+	}
+	</style>
+</head>
+<body>
+	<h1 class="biaoti">圆通区块链项目</h1>
+	<div>区块信息</div>
+	<textarea name="wenbenyu" id="wenbenyu" cols="50" rows="10" >
+
+	区块已成功创建!信息如下：
+	区块号：{{info_dict.index}}
+	区块时间戳：{{info_dict.timestamp}}
+	区块内容：{{info_dict.data}}
+	区块哈希值：{{info_dict.self_hash}}
+	父区块哈希值：{{info_dict.previous_hash}}
+	</textarea>
+	<a href="http://localhost:8000">返回主页</a>
+</body>
+</html>
+
+
+

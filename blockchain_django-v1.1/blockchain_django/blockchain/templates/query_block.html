@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>查询数据</title>
+	<style>
+	label {
+		color: red;
+	}
+		body,table,h1
+	{
+		padding: 0;
+		margin: 0;
+	}
+	body
+	{
+		
+		background-color:#e6e6e6;
+		color: #fff; 
+	}
+	.biaoti {
+	background-color: blue;
+	color: red;
+	margin: 3px auto;
+	text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<h1 class="biaoti">圆通区块链项目</h1>
+	<form action="/query_block/" method="post">
+			{% csrf_token %}
+    		{{ form }}  	
+	<input type="submit" value="查询">
+		
+	
+    </form>
+
+</body>
+</html>
