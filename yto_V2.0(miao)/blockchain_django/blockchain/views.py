@@ -93,8 +93,14 @@ def moremess(request,index):
     info_dict['trackname']= object_block.trackNum
     return render(request,'moremessage.html',{'info_dict':info_dict})
 
-def theory(request):
-    return render(request,'theory.html')
+def theory(request,index):
+    object_block = Block.objects.get(index=index)
+    info_dict = {}
+    info_dict['previous_hash'] = object_block.previous_hash
+    info_dict['index'] = object_block.index
+    info_dict['timetamp'] = object_block.timestamp
+    info_dict['self_hash'] = object_block.self_hash
+    return render(request,'theory.html',{'info_dict':info_dict})
 
    # return HttpResponseRedirect("/query_result/?index="+str(object_block.index))
 # def query_block(request):

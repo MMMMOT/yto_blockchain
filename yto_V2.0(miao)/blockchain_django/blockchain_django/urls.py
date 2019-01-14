@@ -34,5 +34,5 @@ urlpatterns = [
     path('query_id_result/',blockchain_views.query_id_result, name='query_id_result'),#身份证号查询过包数据结果页面
     path('testfunc/',blockchain_views.testfunc),
     path('moremess/<index>/',blockchain_views.moremess,name='moremess'),
-    path('theory/', blockchain_views.theory, name='theory'),
+    path('theory/<index>/', blockchain_views.theory, name='theory'),
 ]
