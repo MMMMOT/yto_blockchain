@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d700184b-b15b-4f5f-b765-2dd271ae8dd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/generate_chain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/query_chain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/add_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/added_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/gene_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/query_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/query_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain_django/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/db.sqlite3" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1954552889">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="14" />
+          <entry key="py" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="14" />
+          <entry key="Python" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="124" />
+          <entry key="py" value="293" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="124" />
+          <entry key="Python" value="293" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+              <folding>
+                <element signature="e#16#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain_django/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/migrations/0002_express_message.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <marker date="1543132709337" expanded="true" signature="112:117" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/demo_home.html" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/query.html" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/add.html" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/forms.py" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/home.html" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/query_block.html" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/add_block.html" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/views.py" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/models.py" />
+        <option value="$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain_django/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="684" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blockchain_django-limuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain_django-limuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain_django-limuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain_django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain_django-limuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain_django" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain_django-limuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain_django-limuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain_django" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain_django" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d700184b-b15b-4f5f-b765-2dd271ae8dd2" name="Default Changelist" comment="" />
+      <created>1540783137695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540783137695</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1288" height="684" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24375" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/manage.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/query_chain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/add.html" />
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/demo_home.html" />
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/query.html" />
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/Django-2.2-py3.7.egg/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="382" column="6" selection-start-line="382" selection-start-column="6" selection-end-line="382" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/migrations/0002_message.py" />
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/add_block.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain_django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/query_block.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="27" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/added_block.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/templates/gene_block.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/generate_chain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+          <folding>
+            <element signature="e#16#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/migrations/0002_express_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1543132709337" expanded="true" signature="112:117" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain_django-limuyang/blockchain_django/blockchain_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

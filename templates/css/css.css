@@ -1,0 +1,84 @@
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-color: #fafafa;
+		height: 3000px;
+
+	}
+	li {
+		list-style: none;/*取消li的小点*/
+	}
+	/*顶部导航栏开始了*/
+	.header {
+		height: 60px;
+		background-color: #417690;
+		color: #f5dd5d;
+		font-size: 16px;
+	}
+	.inner {
+		width: 1200px;
+		height: 100px;
+		/*background-color: pink;*/
+		margin: 0 auto;
+		line-height: 60px;/*行高继承*/
+	}
+	.xiangmu_mingcheng {
+		float: left;
+	}
+	.nav {
+		float: right;
+	}
+	.nav ul {
+		overflow: hidden;
+	}
+	.nav li {
+		float: left;
+		margin: 0 20px;
+	}
+	.nav li a {
+		color: #f5dd5d;
+		text-decoration: none;
+	}
+	.nav li a:hover {
+		color: #2288f6;
+	}
+	/*header end*/
+
+	/*banner star*/
+	.content {
+		margin-left: 50px;
+		margin-top: 10px;
+		height: 320px;
+		width: 320px;
+		/*background-color: pink;*/
+		border: 1px solid #ccc;
+		position: relative;
+	}
+	.banner h3 {
+		margin-left: 50px;
+		margin-top: 10px;
+	}
+	.banner ul li {
+		line-height: 30px;
+	}
+	.banner li a {
+		color: #417690;
+		text-decoration: none;
+	}
+	.banner li a:hover {
+		color: #2288f6;
+	}
+	form {
+		margin-top: 30px;
+	}
+	#find {
+		position: absolute;
+		bottom: 160px;
+		left: 50%;/*水平走父容器的一半*/
+		margin-left: -20px;/*左走自己的一半*/
+
+	}
+	

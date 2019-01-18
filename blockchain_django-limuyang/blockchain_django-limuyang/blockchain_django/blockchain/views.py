@@ -6,6 +6,7 @@ import datetime as date
 import hashlib
 
 from .models import Block
+from .models import express_message
 
 from .forms import TransactionForm, IndexQueryForm
 

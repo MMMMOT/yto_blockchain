@@ -2,7 +2,6 @@
 import django.utils.timezone as timezone
 from django.shortcuts import render
 from django.http import HttpResponse , HttpResponseRedirect
-import datetime as date
 import hashlib
 
 import blockchain.checkdata
@@ -35,8 +34,12 @@ def query_id(request):
             # ...
             # redirect to a new URL:
             uid = form.cleaned_data['uid']
-            object_user = CommonUser.objects.get(uid = uid)
-            blockchain.checkdata.check_new_data()
+            try:
+                object_user = CommonUser.objects.get(uid = uid)
+                blockchain.checkdata.check_new_data()
+            except:
+                return HttpResponse("所查询的用户不存在！")
+
             if object_user in CommonUser.objects.all():
                 return HttpResponseRedirect("/query_id_result/?uid="+str(object_user.uid))
             else:
@@ -89,7 +92,7 @@ def moremess(request,index):
     info_dict={}
     info_dict['image_ID']= object_block.self_hash
     info_dict['index']= object_block.index
-    info_dict['timetamp']= object_block.timestamp
+    info_dict['timestamp']= object_block.timestamp
     info_dict['trackname']= object_block.trackNum
     return render(request,'moremessage.html',{'info_dict':info_dict})
 
@@ -98,7 +101,7 @@ def theory(request,index):
     info_dict = {}
     info_dict['previous_hash'] = object_block.previous_hash
     info_dict['index'] = object_block.index
-    info_dict['timetamp'] = object_block.timestamp
+    info_dict['timestamp'] = object_block.timestamp
     info_dict['self_hash'] = object_block.self_hash
     return render(request,'theory.html',{'info_dict':info_dict})
 

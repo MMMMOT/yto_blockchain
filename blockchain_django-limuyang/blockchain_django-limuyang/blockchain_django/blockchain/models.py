@@ -2,10 +2,11 @@
 
 from django.db import models
 
-# Create your models here.
-class Block(models.Model):
-    index = models.IntegerField()
-    timestamp = models.TimeField()
-    data = models.TextField()
-    previous_hash = models.CharField(max_length = 64)
-    self_hash = models.CharField(max_length = 64)
+  0.arField(max_length = 64)
+
+class express_message(models.Model):
+    user_ID = models.CharField(max_length=18)
+    order_ID = models.CharField(max_length=32,null=True)
+    send_time = models.DateTimeField(null=True)
+    security_check_time = models.DateTimeField(null=True)
+    save_time = models.DateTimeField(null=True)
